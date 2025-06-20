@@ -1,0 +1,53 @@
+# Editor backup files
+*~
+*.bak
+*.swp
+*.swo
+.*.sw?
+\#*\#
+.#*
+
+# System and temporary files
+.DS_Store
+Thumbs.db
+.directory
+desktop.ini
+*.tmp
+*.temp
+.cache/
+
+# Log files
+*.log
+log/
+logs/
+
+# i3 specific
+i3-save-tree.*
+
+# Potentially sensitive files
+*credentials*
+*auth*
+*key*
+*token*
+*secret*
+*password*
+
+# Environment specific files that might need different configs per device
+# Uncomment if you want to exclude these specific files
+# config.d/host-specific.conf
+# local.conf
+
+# Python compiled files (if you use any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Executable binaries
+*.exe
+*.out
+*.so
+*.dll
+
+# Build directories
+build/
+dist/
